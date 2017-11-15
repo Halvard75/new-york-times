@@ -1,0 +1,183 @@
+html h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin-top: 4px;
+    margin-bottom: 2px;
+    font-family: "nyt-cheltenham-sh", georgia, "times new roman", times, serif;
+}
+
+header {
+    z-index: 1000; /* pour gérer la supperposition des calques */
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    border-bottom: 1px solid #E2E2E2;
+    text-align: center;
+}
+
+.header-logo {
+    padding-top: 13px;
+    position: sticky;
+}
+
+
+/*****************  Articles *************/
+
+.articles-haut {
+    margin-top: 48px;
+    margin-left: 2%;
+    width: 98%;
+    height: 85px;
+    box-shadow: 1px 5px 5px #F0F0F0;
+    border: 1px solid #E2E2E2;
+}
+
+.art-1 {
+    position: relative;
+    width: 19.75%;
+    float: left;
+    height: 85px;
+}
+
+.img-art {
+    margin: 9px;
+    float: left;
+    padding-right: 9px;
+}
+
+.text-art {
+    position: absolute;
+    height: 65px;
+    top: 0;
+    left: 83px;
+    float: left;
+    margin-top: 9px;
+}
+
+.text-art p{
+    line-height: 15px;
+    font-size: 0.8125em;
+}
+hr{
+    float: left;
+    width: 0.10%;
+    height: 70px;
+    background-color: darkgrey;
+    border: none; /*on supprime le style par défaut*/
+}
+
+/*****************  Main *************/
+main hr {
+    margin-top: 5px;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    border: none; /*on supprime le style par défaut*/
+}
+main
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 100%;
+}
+.separation
+{
+    margin-top: 5px;
+    width: 100%;
+    height: 1px;
+    background-color: lightgrey;
+    border: none; /*on supprime le style par défaut*/  
+}
+.separation-2 {
+    display: block;
+    float: left;
+    margin-top: 5px;
+    width: 100%;
+    height: 1px;
+    background-color: lightgrey;
+    border: none; /*on supprime le style par défaut*/  
+}
+.author {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.logo-author {
+    width: 15%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.by-author a:hover {
+    text-decoration: underline;
+}
+.by-author a {
+    color: black;
+    text-decoration: none;
+}
+
+.picture-article{
+    width: 100%;
+    height: 607px;
+    background-image: url(img-article.jpg);
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.description-article {
+    max-width: 615px;
+    color: #666;
+    font-size: 13px;
+}
+
+#typo {
+    color: lightgray;
+    font-size: 10px;
+}
+
+.article{
+   width: 55%;
+    margin-left: 5%;
+    margin-top: 3%;
+    float: left;
+}
+
+.comments{
+    float: left;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 30%;
+    
+    
+}
+
+.theory{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.img-theory{
+    float: left;
+    width: 100%;
+    height: 576px;
+    padding-top: 120px;
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png)
+}
+
+.text-theory {
+    width: 100%;
+    float: left;
+}
